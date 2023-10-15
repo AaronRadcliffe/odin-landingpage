@@ -30,8 +30,18 @@ button {
     cursor: pointer;
 }
 
+p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    max-width: 1000px;
+}
+
 .logo,
-.information {
+.information,
+.author,
+.actionCall {
     font-weight: 900;
 }
 
@@ -56,7 +66,8 @@ button {
     gap: 8px;
 }
 
-.introText {
+.introText,
+.callToActionSignUp {
     font-size: 14px;
 }
 
@@ -108,3 +119,32 @@ button {
     height: 150px;
     margin: 8px 0;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+
+.author {
+    display: flex;
+    width: 800px;
+    justify-content: flex-end;
+
+}
+
+.action {
+    box-sizing: border-box;
+    width: 1000px;
+    background-color: #3882f6;
+    color: white;
+    align-self: center;
+    border-radius: 12px;
+    padding: 0px 100px;
+}
+
+.action button {
+    border: 1px solid white;
+    margin-left: auto;
+}
+
